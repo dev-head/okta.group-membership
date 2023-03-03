@@ -107,7 +107,7 @@ def main():
     """
     Main entry into the scripting here, basically allowing for you to pass
     in your domain and api-key; which is either
-    ./script.py --domain hello --api-key blahblah
+    ./main.py --domain hello --api-key blahblah
     or use environment vars (OKTA_DOMAIN_NAME, OKTA_API_TOKEN)
     if none are provided, the script will ask you to provide them.
     """
